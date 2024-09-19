@@ -63,11 +63,11 @@ paperElement.addEventListener('click', (event) => {
     }
 
     if (computerChoice === 'steen') {
-        result = 'Gewonnen!!'
+        result = 'Gewonnen!!';
     }
 
     if (computerChoice === 'schaar') {
-        result = '... verloren'
+        result = '... verloren';
     }
 
     resultElement.innerText = result;
@@ -97,11 +97,11 @@ rockElement.addEventListener('click', (event) => {
     }
 
     if (computerChoice === 'schaar') {
-        result = 'Gewonnen!!'
+        result = 'Gewonnen!!';
     }
 
     if (computerChoice === 'blad') {
-        result = '... verloren'
+        result = '... verloren';
     }
 
     resultElement.innerText = result;
